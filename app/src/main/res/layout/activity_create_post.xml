@@ -18,7 +18,7 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_gravity="right"
+            android:layout_gravity="end"
             android:scaleType="centerInside"
             android:src="@drawable/logo_white"
             android:id="@+id/imageView">
@@ -61,14 +61,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:inputType="text"
         android:id="@+id/postText"
+        android:inputType="textMultiLine"
+
         >
 
     </EditText>
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
         android:id="@+id/previewImage"
 
         >
